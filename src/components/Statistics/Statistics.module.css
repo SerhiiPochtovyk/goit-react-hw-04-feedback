@@ -1,0 +1,27 @@
+.stat {
+    padding: 5px;
+    border-radius: 5px;
+    list-style: none;
+    text-transform: capitalize;
+  }
+  
+  .list {
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .stat:first-child {
+    background-color: rgb(72, 192, 100);
+  }
+  
+  .stat:nth-child(2) {
+    background-color: rgb(209, 214, 149);
+  }
+  
+  .stat:nth-child(3) {
+    background-color: rgb(234, 72, 93);
+  }
+  
+  .stat:not(:first-child) {
+    margin-top: 4px;
+  }

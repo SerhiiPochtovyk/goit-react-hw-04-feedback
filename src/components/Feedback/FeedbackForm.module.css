@@ -1,0 +1,39 @@
+.button {
+  display: inline-block;
+  width: 80px;
+  min-height: 40px;
+  color: white;
+  background-color: #4bca62;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  text-transform: capitalize;
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+    rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px,
+    rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+    rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 8px;
+  transition: background-color 0.24s, box-shadow 0.24s;
+}
+
+.button:hover {
+  background-color: rgb(41, 60, 170);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+    rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px,
+    rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 3px 9px 0px,
+    rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px 2px rgb(113, 167, 181);
+  background-color: rgba(206, 215, 134, 0.781);
+}
